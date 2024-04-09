@@ -58,6 +58,22 @@ public class Clase1 {
             System.out.println("la condicion es falsa");
         }
 
+        String nom = "Byron";
+        String ape = "Cordova";
+        String nomTotal = nom + " " + ape;
+        int largo = nomTotal.length();
+        System.out.printf("largo cadena=%d\n", largo);
+
+        String subCadena1 = nomTotal.substring(0, 5);
+        /**/
+        System.out.printf("%s\n", subCadena1);
+        
+        String subCadena2 = nomTotal.substring(6, 13);
+        /**/
+        System.out.printf("%s\n", subCadena2);
+        
+        boolean bol1=
+
     }
 
 }
